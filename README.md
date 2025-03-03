@@ -18,3 +18,4 @@ yarn start
 
 
 or npx vite ./src , need to fix index.html for this command
+# rxjs-typescript-2025
