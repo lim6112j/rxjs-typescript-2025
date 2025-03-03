@@ -5,12 +5,16 @@
 * npx webpack init
 * edit package.json
 
-"scripts": {
-	"build": "webpack-cli ./src/index.ts"
+ "scripts": {
+		 "build": "webpack-cli ./src/index.ts",
+		 "start": "webpack-cli ./src/index.ts && open ./src/index.html"
  },
 
 # how to run
 
-yarn build
+yarn start
 
-open ./src/index.html
+
+
+
+or npx vite ./src , need to fix index.html for this command
